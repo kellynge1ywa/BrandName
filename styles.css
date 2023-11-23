@@ -1,0 +1,549 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.root{
+  font-size: 16px;
+
+}
+
+/* main body styling */
+
+.main-body{
+  width: 100%;
+  /* margin: 0 auto; */
+}
+  /* top section stylng */
+  .top-section{
+    background-image: url(./images/hero.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  
+  
+  height: 80svh;
+ } 
+
+ .nav-left{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+
+ .nav-links{
+  position: relative;
+  left: 5em;
+ }
+
+ .nav-links nav ul{
+  display: flex;
+  gap: 2em;
+ }
+ nav ul li{
+  list-style-type: none;
+ }
+ nav ul li a{
+  text-decoration: none;
+  
+ }
+
+ .nav-right{
+  display: flex;
+  gap: 1.5em;
+ }
+
+
+ .content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ position: relative;
+ bottom: 15em;
+ }
+
+ /* vission styling */
+.vission{
+  height: 20svh;
+}
+ .vssn{
+  display: flex;
+  position: relative;
+  bottom: 4em;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .vission1{
+  background-color: black;
+  color: white;
+  padding: 2em 2em;
+  
+ }
+
+ .vission1 h3{
+  font-size: 1.5rem;
+ }
+
+ .vission1 p{
+  
+  width: 80%;
+ }
+
+ .vission2{
+  background-color: black;
+  color: white;
+  padding: 2em 2em;
+
+ }
+ .vission2 h3{
+  font-size: 1.5rem;
+ }
+
+ .vission2 p{
+  
+  width: 80%;
+ }
+
+ .vission3{
+  background-color: black;
+  color: white;
+  padding: 2em 2em;
+
+ }
+ .vission3 h3{
+  font-size: 1.5rem;
+ }
+
+ .vission3 p{
+  
+  width: 80%;
+ }
+
+ /* ion-icon stylng */
+ .ion1{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 0;
+ }
+
+
+ /* Mission styling */
+ .mission{
+  display: flex;
+  gap: 1.2em;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  
+ }
+
+ .mission1{
+  border: 2px solid purple;
+  width: 22%;
+  text-align: center;
+ }
+ .mission1 p{
+  
+  font-size: 1.1rem;
+ }
+ .mission2{
+  width: 22%;
+  text-align: center;
+ }
+ .mission2 p{
+  font-size: 1.1rem;
+  
+ }
+ .mission3{
+  text-align: center;
+
+  width: 22%;
+ }
+ .mission3 p{
+  font-size: 1.1rem;
+  
+ }
+
+
+ /* THIRD-LAST STYLING */
+.industry{
+  text-align: center;
+  width: 37%;
+  
+}
+
+.industry p{
+  font-size: 1rem;
+}
+
+ .third-last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  background-color: rgba(251,251,250,255);
+ }
+/* TESTIMONIALS STYLNG */
+ .testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 0;
+  gap: 1em;
+ }
+ .user1{
+  width: 20%;
+  padding: 2em 0;
+  text-align: center;
+  border: 2px solid green;
+ }
+ .user1 img{
+  width: 50%;
+ }
+
+ .stars{
+  display: flex;
+  position: relative;
+  left: 5em;
+  width: 30%;
+  margin-top: 2em;
+ }
+
+ /* PARTNERS STYLING */
+.partners{
+  padding-left: 11em;
+  margin: 2em 0;
+}
+ .partners img{
+  width: 8%;
+  padding-left: 3em;
+ }
+
+ /* NEWSLETTER STYLING */
+
+ .newsletter{
+  display: flex;
+  background: linear-gradient(to left, rgba(195, 25, 136, 255), rgba(22, 65, 137, 255));
+  align-items: center;
+  padding: 2em;
+  width: 70%;
+  justify-content: space-between;
+ }
+
+ .subscribe{
+  width: 30%;
+ }
+
+ .input input{
+  padding: 1em;
+  border-radius: 0.4em;
+ }
+
+ .submit-btn{
+  padding: 1em;
+  position: relative;
+  right: 1em;
+  border-radius: 0.4em;
+ }
+
+ /* SUBSCRIPTION LISTING */
+
+ .pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3em 0;
+ }
+ .pricing-header{
+  text-align: center;
+  width: 60%;
+  margin: 3em 0;
+ }
+
+ .premiums{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  /* text-align: center; */
+ }
+
+ /* FREE STYLING */
+ .free{
+  width: 30%;
+  padding: 2em;
+  border: 2px solid rgb(112, 112, 194);
+
+ }
+
+ .free-title{
+  text-align: center;
+ }
+ 
+ .free-info{
+  width: 60%;
+  padding-left: 3em;
+  text-align: center;
+  margin: 2em 0;
+ }
+
+.free-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.try button{
+  width: 90%;
+  padding: 1em;
+  background-color: rgb(79, 79, 158);
+  border: none;
+}
+
+/* STANDARD STYLING */
+
+ .standard{
+  
+  width: 30%;
+  padding: 2em;
+  
+  background-color: rgba(36,43,67,255);
+ }
+
+ .standard-title{
+  text-align: center;
+ }
+ 
+ .standard-info{
+  width: 60%;
+  padding-left: 3em;
+  text-align: center;
+  margin: 2em 0;
+ }
+
+.standard-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+ /* PREMIUM STYLING */
+ .premium{
+  width: 30%;
+  padding: 2em;
+  border: 2px solid rgb(112, 112, 194);
+ }
+
+ .premium-title{
+  text-align: center;
+ }
+ 
+ .premium-info{
+  width: 60%;
+  padding-left: 3em;
+  text-align: center;
+  margin: 2em 0;
+ }
+
+.premium-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+ .feature1{
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+ }
+ .feature2{
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+
+ }
+ .feature3{
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+
+ }
+
+ .feature4{
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+
+ }
+
+ .feature5{
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+
+ }
+
+ /* SECOND LAST STYLING */
+
+ .second-last{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 3em 0;
+  height: 60svh;
+  background-color: rgba(36,43,67,255);
+ }
+
+ .presence{
+  width: 40%;
+ }
+
+ .world-map img{
+  width: 40%;
+  position: relative;
+  left: 15em;
+ }
+
+ /* APPOINTMENT FORM */
+
+ .contact-form{
+  display: flex;
+  flex-direction: column;
+  
+  
+ }
+
+ .top{
+  display: flex;
+  margin: 3em 0;
+  justify-content: center;
+ }
+
+ .contact-img img{
+  height: 70svh;
+ }
+
+ .contactForm{
+  height: 50svh;
+ padding: 1em 2em;
+ font-size: 1.4em;
+ }
+
+ .form-title {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1em 0;
+ }
+
+ .input1 input{
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+ }
+
+ .input1 select{
+  width: 105%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+
+ }
+
+ .appoint-btn{
+  width: 100%;
+  margin: 2em 0;
+  padding: 1em;
+ }
+
+ 
+ .contact-us{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  /* gap: 30em; */
+  
+ }
+
+ .our-agency{
+  width: 50%;
+ }
+
+ .contactBtn{
+  width: 20%;
+  padding: 0.5em;
+  border: none;
+  background-color: aqua;
+ }
+
+
+ /* FOOTER STYLING */
+ .footer{
+  display: flex;
+  flex-direction: column;
+  padding: 3em 0;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  
+ }
+
+
+
+
+
+
+ .footer-links{
+  display: flex;
+  gap: 2em;
+ }
+
+ .company-info{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .company-info nav ul li{
+  display: flex;
+ }
+
+.legal{
+  display: flex;
+  flex-direction: column;
+}
+ .legal nav ul li{
+  display: flex;
+ }
+
+ .features{
+  display: flex;
+  flex-direction: column;
+ }
+
+ /* COPYRIGHT STYLING */
+
+ .copyright{
+  display: flex;
+  gap: 30em;
+ }
+
+ .socialMedia{
+  display: flex;
+  gap: 2em;
+ }

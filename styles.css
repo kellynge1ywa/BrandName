@@ -28,6 +28,7 @@
   justify-content: space-between;
   
   
+  
   height: 80svh;
  } 
 
@@ -70,7 +71,8 @@
 
  /* vission styling */
 .vission{
-  height: 20svh;
+  height: 30svh;
+  background-color: rgba(251,251,250,255);
 }
  .vssn{
   display: flex;
@@ -79,6 +81,8 @@
   gap: 2em;
   justify-content: center;
   align-items: center;
+  
+
  }
 
  .vission1{
@@ -203,7 +207,7 @@
  }
  .user1{
   width: 20%;
-  padding: 2em 0;
+  padding: 2em 2em;
   text-align: center;
   border: 2px solid green;
  }
@@ -214,9 +218,13 @@
  .stars{
   display: flex;
   position: relative;
-  left: 5em;
+  left: 4.5em;
   width: 30%;
   margin-top: 2em;
+ }
+
+ .stars img{
+  padding-left: 0.5em;
  }
 
  /* PARTNERS STYLING */
@@ -236,6 +244,7 @@
   background: linear-gradient(to left, rgba(195, 25, 136, 255), rgba(22, 65, 137, 255));
   align-items: center;
   padding: 2em;
+  margin-top: 2em;
   width: 70%;
   justify-content: space-between;
  }
@@ -247,13 +256,16 @@
  .input input{
   padding: 1em;
   border-radius: 0.4em;
+  border: none;
  }
 
  .submit-btn{
   padding: 1em;
   position: relative;
   right: 1em;
+  background-color: rgba(35,166,240,255);
   border-radius: 0.4em;
+  border: none;
  }
 
  /* SUBSCRIPTION LISTING */
@@ -263,28 +275,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 3em 0;
+  margin: 5em 0;
  }
  .pricing-header{
   text-align: center;
   width: 60%;
   margin: 3em 0;
+  line-height: 1.5em;
  }
 
  .premiums{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  /* gap: 2em; */
   /* text-align: center; */
+ }
+
+ .per-month{
+  color: rgba(138,190,238,255);
  }
 
  /* FREE STYLING */
  .free{
-  width: 30%;
+  width: 20%;
   padding: 2em;
-  border: 2px solid rgb(112, 112, 194);
-
+  border: 2px solid rgba(54,174,240,255);
+  border-radius: 0.5em;
  }
 
  .free-title{
@@ -304,12 +321,13 @@
   align-items: center;
   gap: 1em;
   margin: 2em 0;
+  color: rgba(54,174,240,255);
 }
 
 .try button{
   width: 90%;
   padding: 1em;
-  background-color: rgb(79, 79, 158);
+  background-color: rgba(54,174,240,255);
   border: none;
 }
 
@@ -317,10 +335,14 @@
 
  .standard{
   
-  width: 30%;
+  width: 20%;
   padding: 2em;
-  
+  color: #fff;
   background-color: rgba(36,43,67,255);
+  position: relative;
+  top: -0.5em;
+  height: 65svh;
+  border-radius: 0.5em;
  }
 
  .standard-title{
@@ -340,13 +362,15 @@
   align-items: center;
   gap: 1em;
   margin: 2em 0;
+  color: rgba(54,174,240,255);
 }
 
  /* PREMIUM STYLING */
  .premium{
-  width: 30%;
+  width: 20%;
   padding: 2em;
-  border: 2px solid rgb(112, 112, 194);
+  border: 2px solid rgba(54,174,240,255);
+  border-radius: 0.5em;
  }
 
  .premium-title{
@@ -366,6 +390,7 @@
   align-items: center;
   gap: 1em;
   margin: 2em 0;
+  color: rgba(54,174,240,255);
 }
 
  .feature1{

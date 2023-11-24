@@ -257,6 +257,33 @@
     border-radius: 0.5em;
    }
 
+   .second-last{
+    display: block;
+    
+    
+    
+    height: 80svh;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(36,43,67,255);
+   }
+
+   .presence{
+    width: 80%;
+    line-height: 1.5rem;
+   }
+   .presence h3{
+    font-size: 2rem;
+    /* padding: 1rem; */
+    line-height: 2rem;
+   }
+  
+   .world-map img{
+    width: 80%;
+    position: relative;
+    
+   }
+
      
 
      

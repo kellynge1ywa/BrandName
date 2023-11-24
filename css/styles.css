@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   height: 80svh;
+  color: #fff;
  } 
 
  .nav-left{
@@ -46,12 +47,14 @@
   left: 10rem;
   top: 2.2rem;
   
+  
  }
 
  .nav-links{
   position: relative;
   left: 5em;
   top: 0.7rem;
+  color: #fff;
  }
 
  .nav-links nav ul{
@@ -63,6 +66,7 @@
  }
  nav ul li a{
   text-decoration: none;
+  color: #fff;
   
  }
 
@@ -82,6 +86,7 @@
   bottom: 0.5rem;
   border: none;
   gap: 1rem;
+  font-size: 1rem;
   color: #fff;
   
  }
@@ -123,11 +128,12 @@
 .btn2{
   background: transparent;
   border: 2px solid #fff;
+  color: #fff;
 }
  .content-btn button{
   width: 50%;
   padding: 1.2rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 1.7rem;
  }
 
@@ -156,6 +162,7 @@
 
  .vission1 h3{
   font-size: 1.5rem;
+  padding: 0.5rem 0;
  }
 
  .vission1 p{
@@ -171,6 +178,8 @@
  }
  .vission2 h3{
   font-size: 1.5rem;
+  padding: 0.5rem 0;
+
  }
 
  .vission2 p{
@@ -186,6 +195,8 @@
  }
  .vission3 h3{
   font-size: 1.5rem;
+  padding: 0.5rem 0;
+
  }
 
  .vission3 p{
@@ -267,6 +278,7 @@
 }
 
 .industry p{
+  padding-top: 1rem;
   font-size: 1rem;
 }
 
@@ -296,6 +308,7 @@
  }
  .user1 img{
   width: 50%;
+  padding-bottom: 1rem;
  }
 
  .stars{
@@ -330,6 +343,7 @@
   margin-top: 2em;
   width: 65%;
   justify-content: space-between;
+  color: #fff;
  }
 
  .subscribe{
@@ -349,6 +363,8 @@
   background-color: rgba(35,166,240,255);
   border-radius: 0.4em;
   border: none;
+  color: #fff;
+  font-size: 0.8rem;
  }
 
  /* SUBSCRIPTION LISTING */
@@ -363,8 +379,13 @@
  .pricing-header{
   text-align: center;
   width: 60%;
-  margin: 3em 0;
+  margin: 1em 0;
+  padding-bottom: 3rem;
   line-height: 1.5em;
+ }
+
+ .pricing-header h2{
+  padding-bottom: 1rem;
  }
 
  .premiums{
@@ -412,6 +433,7 @@
   padding: 1em;
   background-color: rgba(54,174,240,255);
   border: none;
+  color: #fff;
 }
 
 /* STANDARD STYLING */
@@ -529,6 +551,7 @@
  }
  .presence h3{
   font-size: 2rem;
+  padding-bottom: 1rem;
   /* padding: 1rem; */
   line-height: 2rem;
  }
@@ -544,6 +567,7 @@
  .contact-form{
   display: flex;
   flex-direction: column;
+  /* width: 80%; */
   background-color: rgba(251,251,250,255);
   
  }
@@ -563,6 +587,7 @@
 
  .contactForm{
   height: 50svh;
+  width: 30%;
  padding: 1em 2em;
  font-size: 1.4em;
  background-color: #fff;
@@ -632,6 +657,7 @@
   justify-content: center;
   align-items: center;
   margin: 2em 0;
+  color: #000;
   
  }
 
@@ -656,17 +682,25 @@
   gap: 3em;
   padding-top: 1rem;
  }
+ .company-info nav ul li a{
+ color: #000;
+ }
 
 
 .legal{
   display: flex;
   flex-direction: column;
+  
 }
  .legal nav ul li{
   display: flex;
   padding-top: 1rem;
+  color: #000;
  }
 
+ .legal nav ul li a{
+  color: #000;
+  }
 
 
  .features{
@@ -678,10 +712,16 @@
  .features nav ul li{
   padding-top: 1rem;
  }
+ .features nav ul li a{
+  color: #000;
+  }
 
  .resources nav ul li{
   padding-top: 1rem;
  }
+ .resources nav ul li a{
+  color: #000;
+  }
 
  .phone{
   display: flex;

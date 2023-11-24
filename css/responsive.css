@@ -1,3 +1,320 @@
 @media (max-width:768px){
+    .root{
+        overflow: hidden;
+    }
+    .main-body{
+        width: 100%;
+        /* margin: 0 auto; */
+      }
+
+      .top-section{
+        background-image: url(../images/hero.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        
+      }
+      
+ .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80svh;
+    width: 100%;
+   } 
+  
+   .nav-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
     
+   }
+
+   .nav-links{
+    position: relative;
+    /* right: 20rem; */
+   }
+
+   .nav-right{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .footer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0;
+    /* gap: 1.2em; */
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    
+   }
+
+   .copyright{
+    display: flex;
+    flex-direction: column;
+    /* gap: 32em; */
+    /* padding-top: 3rem; */
+    width: 80%;
+    /* height: 10svh; */
+   }
+   .madeBy{
+    /* width: 50%; */
+   }
+  
+   .socialMedia{
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* top: -20rem; */
+    gap: 2em;
+    color: rgba(34,167,240,255);
+    
+  
+   }
+
+   .content-btn{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2rem;
+    
+  }
+  .content-btn button{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1rem;
+    border-radius: 1.7rem;
+   }
+
+   .vission{
+    height: 60svh;
+    background-color: rgba(251,251,250,255);
+  }
+
+   .vssn{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 5em;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    
+  
+   }
+   .mission{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    height: 80svh;
+    padding: 2em 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+   }
+
+   .mission1{
+    width: 60%;
+    text-align: center;
+
+    
+   }
+   .mission2{
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    
+   }
+   .mission3{
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+
+    
+   }
+
+   .industry{
+    text-align: center;
+    width: 77%;
+    
+  }
+
+  .testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    height: 100svh;
+    
+    
+   }
+
+   .user1{
+    width: 90%;
+    padding: 2em 2em;
+    text-align: center;
+    background-color: rgba(254,255,254,255);
+    
+   }
+
+   .stars{
+    display: flex;
+    position: relative;
+    left: 7em;
+    width: 40%;
+    margin-top: 2em;
+   }
+
+   .partners{
+    
+    position: relative;
+    top: 1rem;
+    right: 4rem;
+    width: 100%;
+  }
+   .partners img{
+    width: 10%;
+    padding-left: 1em;
+   }
+
+   .newsletter{
+    display: flex;
+    background: linear-gradient(to left, rgba(195, 25, 136, 255), rgba(22, 65, 137, 255));
+    align-items: center;
+    padding: 1em;
+    margin-top: 2em;
+    width: 100%;
+    justify-content: space-between;
+   }
+
+   .subscribe{
+    width: 30%;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+   }
+
+   .input{
+    width: 45%;
+    display: flex;
+   }
+   .input input{
+    padding: 0.5em;
+    border-radius: 0.4em;
+    border: none;
+    width: 50%;
+   }
+
+   .submit-btn{
+    padding: 0.4em;
+    position: relative;
+    right: 0.4em;
+    background-color: rgba(35,166,240,255);
+    border-radius: 0.4em;
+    border: none;
+    width: 50%;
+   }
+
+   .premiums{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2em; */
+    /* text-align: center; */
+   }
+
+   .free{
+    width: 70%;
+    padding: 2em;
+    border: 2px solid rgba(54,174,240,255);
+    border-radius: 0.5em;
+   }
+
+   .standard{
+    margin-top: 1.5rem;
+    width: 70%;
+    padding: 2em;
+    color: #fff;
+    background-color: rgba(36,43,67,255);
+    position: relative;
+    top: -1em;
+    /* height: 70svh; */
+    border-radius: 0.5em;
+   }
+   .premium{
+    width: 70%;
+    padding: 2em;
+    border: 2px solid rgba(54,174,240,255);
+    border-radius: 0.5em;
+   }
+
+     
+
+     
+}
+
+
+@media (max-width:400px){
+    .main-body{
+        width: 100%;
+        /* margin: 0 auto; */
+      }
+
+      .top-section{
+        background-image: url(../images/hero.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        
+      }
+      .navbar{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        height: 80svh;
+        width: 100%;
+       } 
+      
+       .nav-left{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+        
+       }
+       .nav-right{
+        display: flex;
+        /* flex-direction: column; */
+        
+       }
+
+       .nav-links{
+        position: relative;
+        right: 20rem;
+       }
+
+       .footer{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em 0;
+        /* gap: 1.2em; */
+        justify-content: center;
+        align-items: center;
+        margin: 2em 0;
+        
+       }
+      
+ 
 }
